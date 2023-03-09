@@ -21,17 +21,27 @@ import java.util.List;
  */
 public class Easy203 {
 
+    // 定义一个虚拟头节点,遇到需要移除的元素,就把pre.next = cur.next
+    // 如果是不需要移除的元素,就把pre移动到下一个节点
+    // 最后返回虚拟节点的头节点
     public ListNode removeElements(ListNode head, int val) {
-        ListNode tem = new ListNode();
-        tem.next = head;
-        ListNode newHead = tem;
-        while (newHead.next != null) {
-            if (newHead.next.val != val) {
-                newHead = newHead.next;
+        // 有可能删除头节点,所以设置newHead为虚拟头节点
+        ListNode newHead = new ListNode(0, head);
+        ListNode pre = newHead;
+        // 遍历的当前位置
+        ListNode cur = head;
+        while (cur != null) {
+            if (cur.val == val) {
+                // 如果为目标值,即将当前值的前一个节点的指针指向当前值的后一个节点
+                pre.next = cur.next;
             } else {
-                newHead.next = newHead.next.next;
+                // 更改当前节点的前一个节点为当前值
+                pre = cur;
             }
+            // 当前节点改为当前节点的下一个值
+            cur = cur.next;
         }
-        return tem.next;
+        // 因为虚拟节点next才为头节点,所以返回newHead.next
+        return newHead.next;
     }
 }
