@@ -1,4 +1,4 @@
-package com.xyy.study.leetcode.dc.tree;
+package com.xyy.study.leetcode.dc.datastructure.tree;
 
 /**
  * @author Xyy

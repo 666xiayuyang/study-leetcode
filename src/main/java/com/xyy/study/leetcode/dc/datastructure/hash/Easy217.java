@@ -1,4 +1,4 @@
-package com.xyy.study.leetcode.dc.hash;
+package com.xyy.study.leetcode.dc.datastructure.hash;
 
 import java.util.HashSet;
 import java.util.Set;

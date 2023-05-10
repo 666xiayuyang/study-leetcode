@@ -1,4 +1,4 @@
-package com.xyy.study.leetcode.dc.linkedlist;
+package com.xyy.study.leetcode.dc.datastructure.linkedlist;
 
 /**
  * @author Xyy

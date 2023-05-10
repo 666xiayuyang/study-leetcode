@@ -1,6 +1,4 @@
-package com.xyy.study.leetcode.dc.linkedlist;
-
-import java.util.List;
+package com.xyy.study.leetcode.dc.datastructure.linkedlist;
 
 /**
  * @author Xyy

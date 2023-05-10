@@ -1,4 +1,4 @@
-package com.xyy.study.leetcode.dc.doublepoint;
+package com.xyy.study.leetcode.dc.algorithm.doublepoint;
 
 import java.util.Arrays;
 

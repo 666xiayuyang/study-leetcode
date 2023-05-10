@@ -1,7 +1,4 @@
-package com.xyy.study.leetcode.dc.hash;
-
-import java.util.HashMap;
-import java.util.Map;
+package com.xyy.study.leetcode.dc.datastructure.hash;
 
 /**
  * 给定两个字符串 s 和 t ，它们只包含小写字母。

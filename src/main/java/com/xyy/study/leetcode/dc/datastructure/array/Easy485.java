@@ -1,6 +1,4 @@
-package com.xyy.study.leetcode.dc.array;
-
-import java.util.Map;
+package com.xyy.study.leetcode.dc.datastructure.array;
 
 /**
  * @author Xyy

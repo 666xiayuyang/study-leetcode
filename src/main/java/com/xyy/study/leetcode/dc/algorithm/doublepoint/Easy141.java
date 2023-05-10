@@ -1,6 +1,6 @@
-package com.xyy.study.leetcode.dc.doublepoint;
+package com.xyy.study.leetcode.dc.algorithm.doublepoint;
 
-import com.xyy.study.leetcode.dc.linkedlist.ListNode;
+import com.xyy.study.leetcode.dc.datastructure.linkedlist.ListNode;
 
 import java.util.HashSet;
 import java.util.Set;
