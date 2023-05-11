@@ -24,7 +24,6 @@ public class Mid881 {
             }else {
                 j--;
             }
-
         }
         return res;
     }
