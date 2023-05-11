@@ -42,6 +42,7 @@ public class Mid162 {
             if (nums[mid] > nums[mid + 1]) {
                 right = mid;
             } else {
+                // 为什么要+1
                 left = mid + 1;
             }
         }
